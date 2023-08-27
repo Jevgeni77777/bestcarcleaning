@@ -1,0 +1,75 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для шапки */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+/* Стили для еженедельной кампании */
+.weekly-campaign {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 2em 0;
+}
+
+/* Стили для разделов с услугами */
+.service-category {
+    padding: 2em;
+    text-align: center;
+}
+
+/* Стили для окон с фотографиями и описанием услуг */
+.service {
+    display: inline-block;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стили для слогана */
+.slogan {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 2em;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Адаптивные стили для телефонов */
+@media (max-width: 768px) {
+    .service-category {
+        padding: 1em;
+    }
+    .service {
+        width: 100%;
+    }
+}
